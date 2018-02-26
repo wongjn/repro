@@ -1,0 +1,15 @@
+{
+    "name": "wongjn/repro",
+    "require": {
+        "composer/installers": "^1.2",
+    
+        "drupal/core": "^8.4"
+    },
+    "extra": {
+        "installer-paths": {
+            "public_html/core": [
+                "type:drupal-core"
+            ]
+        }
+    }
+}
